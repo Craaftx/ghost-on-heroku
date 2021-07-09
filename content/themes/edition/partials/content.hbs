@@ -22,12 +22,6 @@
 
         <h1 class="single-title">{{title}}</h1>
 
-        {{#if custom_excerpt}}
-            <div class="single-excerpt">
-                {{custom_excerpt}}
-            </div>
-        {{/if}}
-
         {{#if feature_image}}
             {{#unless no_image}}
                 <div class="single-media kg-width-{{width}}">
@@ -55,7 +49,7 @@
 
             <div class="single-footer-middle">
                 <div class="single-footer-top">
-                    <h3 class="single-footer-title">Published by:</h3>
+                    <h3 class="single-footer-title">Publié par :</h3>
                     <div class="author-list">
                         {{#foreach authors}}
                             <div class="author-image-placeholder u-placeholder square">
@@ -73,7 +67,7 @@
                             href="https://www.facebook.com/sharer.php?u={{url absolute="true"}}"
                             target="_blank" rel="noopener noreferrer">
                             {{> icons/facebook}}
-                            Share
+                            Partager
                         </a>
                         <a class="share-link share-link-twitter"
                             href="https://twitter.com/intent/tweet?url={{url absolute="true"}}&text={{encode title}}"
