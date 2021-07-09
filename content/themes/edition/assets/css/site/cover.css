@@ -2,7 +2,8 @@
   margin-top: 9vmin;
 }
 
-.with-full-cover .cover {
+.with-full-cover .cover,
+.cover {
   position: relative;
   display: flex;
   overflow: hidden;
