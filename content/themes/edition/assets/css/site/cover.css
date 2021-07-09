@@ -7,7 +7,7 @@
   display: flex;
   overflow: hidden;
   margin-top: calc(var(--navbar-height) * -1);
-  height: 100vh;
+  height: 400px !important;
 }
 
 .with-full-cover .cover::before {
